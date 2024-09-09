@@ -1,0 +1,15 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+**/.terragrunt-cache
+**/.terraform.lock.hcl
+**/.terraform
+**/_backend.tf
+**/_tg-azure-provider.tf
+**/.tool-versions
+
+.env
