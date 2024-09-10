@@ -9,9 +9,9 @@ variable "network_id" {
 }
 
 variable "allow_ethernet_bridging" {
-  description = "(Boolean) Is this member allowed to activate ethernet bridging over the ZeroTier network? Default is false."
+  description = "(Boolean) Is this member allowed to activate ethernet bridging over the ZeroTier network? Default is true."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "authorized" {

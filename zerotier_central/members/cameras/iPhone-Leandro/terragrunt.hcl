@@ -7,7 +7,7 @@ include {
 }
 
 # dependency "member" {
-#   config_path = "${get_repo_root()}/zerotier_central/identity/ipcam-goke/"
+#   config_path = "${get_repo_root()}/zerotier_central/identity/openwrt-escritorio-leandro/"
 # }
 
 dependency "network" {
@@ -15,9 +15,9 @@ dependency "network" {
 }
 
 inputs = {
-  name       = "Goke IPCam"
-  member_id  = "7fcb16d4a8"
+  name       = "iPhone-Leandro"
+  member_id  = "9b04d1b32d"
   network_id = dependency.network.outputs.id
 
-  ip_assignments = ["192.168.168.11"]
+  ip_assignments = ["192.168.168.12"]
 }

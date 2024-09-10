@@ -31,7 +31,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_member_id"></a> [member\_id](#input\_member\_id) | (String) The identity ID of this member. | `string` | n/a | yes |
 | <a name="input_network_id"></a> [network\_id](#input\_network\_id) | (String) ID of the network this member belongs to. | `string` | n/a | yes |
-| <a name="input_allow_ethernet_bridging"></a> [allow\_ethernet\_bridging](#input\_allow\_ethernet\_bridging) | (Boolean) Is this member allowed to activate ethernet bridging over the ZeroTier network? Default is false. | `bool` | `false` | no |
+| <a name="input_allow_ethernet_bridging"></a> [allow\_ethernet\_bridging](#input\_allow\_ethernet\_bridging) | (Boolean) Is this member allowed to activate ethernet bridging over the ZeroTier network? Default is true. | `bool` | `true` | no |
 | <a name="input_authorized"></a> [authorized](#input\_authorized) | (Boolean) Is the member authorized on the network? Default is true. | `bool` | `true` | no |
 | <a name="input_capabilities"></a> [capabilities](#input\_capabilities) | (Set of Number) List of network capabilities | `set(number)` | `null` | no |
 | <a name="input_description"></a> [description](#input\_description) | (String) Text description of this member. | `string` | `""` | no |

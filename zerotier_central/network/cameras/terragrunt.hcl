@@ -17,6 +17,12 @@ inputs = {
     }
   ]
 
+  route = [
+    {
+      target = "192.168.168.0/24"
+    }
+  ]
+
   assign_ipv4 = [
     {
       zerotier = true
